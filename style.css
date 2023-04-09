@@ -1,0 +1,372 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Merriweather', serif;
+}
+.all-content{
+    background: #f7f5f2;
+}
+html ::-webkit-scrollbar-track{
+    background: transparent;
+}
+html ::-webkit-scrollbar-thumb{
+    background: #050505;
+    border-radius: 10px;
+}
+html ::-webkit-scrollbar{
+    width: 10px;
+}
+
+/* navbar start */
+#navbar{
+    background-color: #6e0000;
+}
+#logo img{
+    border-radius: 10px;
+    width: 160px;
+    margin-left: 40px;
+}
+.navbar-nav{
+    margin-left: 50px;
+}
+.nav-item .nav-link{
+    color: black;
+    margin-left: 10px;
+    font-weight: bold;
+    transition: 0.5s;
+}
+.nav-item .nav-link:hover{
+    background: #f7f5f2;
+    border-radius: 5px;
+    color: black;
+}
+#navbar form button{
+    background: black;
+    color: white;
+    border: 1px solid white;
+}
+/* navbar end */
+
+
+
+
+
+/* home section start */
+#home{
+    width: 100%;
+    height: 90vh;
+    background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url(./images/bc3.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 88%;
+}
+#home .content{
+    padding-top: 210px;
+    margin-left: 56px;
+}
+#home .content h3{
+    font-size: 50px;
+    color: white;
+}
+#home .content p{
+    margin-top: 10px;
+    color: white;
+}
+#btn{
+    width: 150px;
+    height: 36px;
+    margin-top: 20px;
+    background: white;
+    border-radius: 5px;
+    font-weight: bold;
+    border: none;
+    transition: 0.5s ease;
+    cursor: pointer;
+}
+#btn:hover{
+    background: #b2744c;
+    color: white;
+}
+/* home section end */
+
+
+
+
+
+
+
+
+/* about section start */
+#about{
+    width: 100%;
+    height: 100vh;
+}
+#about .container{
+    padding-top: 70px;
+}
+.heading{
+    text-align: center;
+    margin-bottom: 50px;
+    color: black;
+    font-size: 30px;
+    font-weight: bold;
+}
+.heading span{
+    color: #6e0000;
+}
+#about .card{
+    border-radius: 10px;
+}
+#about .card img{
+    border-radius: 10px;
+}
+#about-btn{
+    width: 200px;
+    height: 36px;
+    background: transparent;
+    border: 2px solid #6e0000;
+    color: #6e0000;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: 0.5s;
+    cursor: pointer;
+}
+#about-btn:hover{
+    background-color: #6e0000;
+    color: white;
+}
+@media screen and (max-width:982px){
+    #about p{
+        font-size: 8px;
+    }
+}
+@media screen and (max-width:766px){
+    #about p{
+        font-size: 15px;
+    }
+    #about{
+        height: 120vh;
+    }
+}
+/* about section end */
+
+
+
+
+
+
+
+
+/* subunit start */
+#Sub-unit{
+    width: 100%;
+    /* height: 60vh; */
+    background: #f7f5f2;
+}
+.heading2{
+    color: black;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+}
+.heading2 span{
+    color: #6e0000;
+}
+#Sub-unit .container{
+    margin-top: 30px;
+}
+#Sub-unit .card{
+    border-radius: 10px;
+    transition: 0.5s;
+    cursor: pointer;
+}
+#Sub-unit .card img{
+    border-radius: 10px;
+}
+#Sub-unit .card:hover{
+    transform: translateY(-10px);
+}
+/* subunit end */
+
+
+
+
+
+
+
+
+/* member start */
+#Member{
+    width: 100%;
+    margin-top: 60px;
+}
+.heading3{
+    text-align: center;
+    font-size: 30px;
+    color: #6e0000;
+    font-weight: bold;
+    border-bottom: 2px solid #6e0000;
+}
+#container2{
+    margin-top: 50px;
+}
+#Member .card{
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+.star i{
+    color: #6e0000;
+}
+#Member h3{
+    text-align:left;
+    color: #000000;
+    margin-top: 10px;
+    font-size: 25px;
+}
+#Member p{
+    font-size: 16px;
+    color: #000000;
+    padding-top: 10px;
+}
+#Member p span{
+    float: right;
+    cursor: pointer;
+}
+/* menu end */
+
+
+
+
+
+/* contact start */
+#contact{
+    width: 100%;
+    height: 100vh;
+    padding-top: 70px;
+}
+#contact .container{
+    width: 100%;
+    height: 80vh;
+    background: linear-gradient(90deg, white 80%, #6e0000 20%);
+    border-radius: 10px;
+}
+.heading6{
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 70px;
+}
+.heading6 span{
+    color: #6e0000;
+}
+#contact p{
+    font-weight: bold;
+    font-size: 13px;
+    color: black;
+}
+#contact input{
+    width: 360px;
+    border: none;
+    border-bottom: 1px solid #6e0000;
+}
+#contact-btn{
+    width: 200px;
+    height: 36px;
+    border: none;
+    background: #6e0000;
+    color: white;
+    font-weight: bold;
+    margin-top: 30px;
+    cursor: pointer;
+}
+#col{
+    width: 40%;
+    height: 56vh;
+    background: black;
+    margin-top: 78px;
+}
+#contact h1{
+    color: white;
+    font-size: 25px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+#contact #col p{
+    font-size: 15px;
+    color: white;
+    margin-left: 13px;
+    margin-top: 30px;
+}
+@media screen and (max-width:766px){
+    #contact .container{
+        background: white;
+    }
+    #col{
+        width: 100%;
+        background: #6e0000;
+    }
+    #contact{
+        height: 150vh;
+    }
+}
+@media screen and (max-width:400px){
+    #contact input{
+        width: 250px;
+    }
+}
+/* contact end */
+
+
+
+
+
+
+/* footer start */
+#footer{
+    width: 100%;
+    background: #6e0000;
+    margin-top: 50px;
+}
+.footer-logo img{
+    width: 180px;
+    border-radius: 10px;
+    margin-top: 30px;
+    cursor: pointer;
+}
+.socail-links i{
+    font-size: 17px;
+    margin-left: 10px;
+    margin-top: 30px;
+    padding: 10px;
+    background: black;
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.credits{
+    color: white;
+    margin-top: 20px;
+    text-shadow: 0px 0px 1px black;
+}
+.credits a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+#credits a span{
+    color: black;
+}
+.copyright span{
+    color: black;
+}
+/* footer end */
+html{
+    scroll-behavior: smooth;
+}
+.arrow{
+    position: fixed;
+    height: 50px;
+    bottom: 40px;
+    right: 50px;
+    text-align: center;
+    line-height: 50px;
+}
